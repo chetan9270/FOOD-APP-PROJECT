@@ -4,6 +4,7 @@
   "description": "",
   "main": "server.js",
   "dependencies": {
+    "@imagekit/nodejs": "^7.2.2",
     "accepts": "^2.0.0",
     "append-field": "^1.0.0",
     "bcrypt": "^6.0.0",
@@ -43,6 +44,7 @@
     "hasown": "^2.0.2",
     "http-errors": "^2.0.1",
     "iconv-lite": "^0.7.2",
+    "imagekit": "^6.0.0",
     "inherits": "^2.0.4",
     "ipaddr.js": "^1.9.1",
     "is-promise": "^4.0.0",
@@ -99,6 +101,7 @@
     "typedarray": "^0.0.6",
     "unpipe": "^1.0.0",
     "util-deprecate": "^1.0.2",
+    "uuid": "^13.0.0",
     "vary": "^1.1.2",
     "webidl-conversions": "^7.0.0",
     "whatwg-url": "^14.2.0",

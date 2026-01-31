@@ -2,13 +2,13 @@ const mongoose = require("mongoose");
 
 const foodItemSchema = new mongoose.Schema(
   {
-    foodName: {
+    Name: {
       type: String,
       required: true,
      
     },
 
-    videoUrl: {
+    video: {
       type: String,
       required: true
     },
@@ -19,10 +19,7 @@ const foodItemSchema = new mongoose.Schema(
       
     },
 
-    foodPartnerName: {
-      type: String,
-      required: true
-    },
+    
 
     
 });
